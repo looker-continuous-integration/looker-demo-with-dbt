@@ -7,7 +7,7 @@ view: dim_users {
     type: number
     primary_key: yes
     hidden: yes
-    sql: ${TABLE}.id ;;
+    sql: ${TABLE}.user_id ;;
   }
 
   dimension: city {

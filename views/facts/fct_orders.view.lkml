@@ -28,7 +28,7 @@ view: fct_orders {
   dimension: order_status {
     type: string
     description: "The status of the order."
-    sql: ${TABLE}.status ;;
+    sql: ${TABLE}.order_status ;;
   }
 
   dimension: user_id {
