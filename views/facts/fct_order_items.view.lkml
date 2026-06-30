@@ -8,7 +8,7 @@ view: fct_order_items {
   dimension: order_item_id {
     primary_key: yes
     type: number
-    sql: ${TABLE}.id ;;
+    sql: ${TABLE}.order_item_id ;;
   }
 
   dimension_group: created {
