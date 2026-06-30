@@ -1,5 +1,5 @@
 view: fct_order_items {
-  sql_table_name: bigquery-public-data.thelook_ecommerce.order_items ;;
+  sql_table_name: `spectacles-ui-qa`.`{{ _user_attributes['dbt_schema_atlasbaker'] }}`.fct_order_items ;;
   view_label: "Order Items"
   label: "Order Items"
 

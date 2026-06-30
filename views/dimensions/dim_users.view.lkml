@@ -1,5 +1,5 @@
 view: dim_users {
-  sql_table_name: bigquery-public-data.thelook_ecommerce.users ;;
+  sql_table_name: `spectacles-ui-qa`.`{{ _user_attributes['dbt_schema_atlasbaker'] }}`.dim_users ;;
   view_label: "Users"
   label: "Users"
 
