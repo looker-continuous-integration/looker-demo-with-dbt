@@ -1,4 +1,4 @@
-connection: "bq_faa"
+connection: "bq_dbt"
 
 include: "/views/dimensions/dim_products.view.lkml"
 include: "/views/dimensions/dim_users.view.lkml"
